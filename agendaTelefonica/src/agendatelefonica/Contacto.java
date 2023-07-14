@@ -11,5 +11,16 @@ public class Contacto {
         this.nombre = nombre;
         this.domicilio = domicilio;
     }
+public String getNumero() {
+        return numero;
+    }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDomicilio() {
+        return domicilio;
+    }
+    
 }
