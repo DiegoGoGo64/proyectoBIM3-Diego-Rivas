@@ -1,7 +1,6 @@
 package agendatelefonica;
 
-public class Contacto {
-
+class Contacto {
     private String numero;
     private String nombre;
     private String domicilio;
@@ -11,16 +10,28 @@ public class Contacto {
         this.nombre = nombre;
         this.domicilio = domicilio;
     }
-public String getNumero() {
+
+    public String getNumero() {
         return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
     }
 
     public String getNombre() {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public String getDomicilio() {
         return domicilio;
     }
-    
+
+    public void setDomicilio(String domicilio) {
+        this.domicilio = domicilio;
+    }
 }
